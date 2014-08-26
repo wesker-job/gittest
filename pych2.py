@@ -7,3 +7,6 @@ print(strEX+" - "+str1+" - "+str2)
 strArray = ["aa","bb","cc"]
 strLink = "**".join(strArray)
 print(strLink)
+strLink = "--".join(reversed(strArray))
+print(strLink)
+
