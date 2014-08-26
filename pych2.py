@@ -9,4 +9,9 @@ strLink = "**".join(strArray)
 print(strLink)
 strLink = "--".join(reversed(strArray))
 print(strLink)
+print(strLink.split("--"))
+
+print("show '{strEX}' and show '{strLink}'".format(**locals()))
+print("{0:*^20}".format(strEX))
+
 
