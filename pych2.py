@@ -4,3 +4,6 @@ str1 = strEX[0:5]
 str2 = strEX[0:10:2]
 print(strEX+" - "+str1+" - "+str2)
 
+strArray = ["aa","bb","cc"]
+strLink = "**".join(strArray)
+print(strLink)
